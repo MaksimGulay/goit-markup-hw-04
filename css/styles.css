@@ -391,6 +391,15 @@ img {
 
 /* customers */
 
+.customers-list {
+    width: 168px;
+    height: 88px;
+    border: 1px;
+    border-color: #8E8F99;
+
+}
+
+
 .customers-section {
     padding-top: 130px;
     padding-bottom: 120px;
@@ -415,9 +424,9 @@ img {
 
 .customers-link {
     border-radius: 4px;
-    width: 168px;
-    height: 88px;
-    border: 1px solid #8E8F99;
+    /* width: 168px;
+    height: 88px; */
+    /* border: 1px solid #8E8F99; */
     display: flex;
     justify-content: center;
     align-items: center;
