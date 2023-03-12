@@ -183,7 +183,7 @@ img {
     text-align: center;
 }
 
-.button-text {
+.hero-subtitle {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -192,10 +192,19 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    outline: none;
+    margin: 0% auto;
+    width: 169px;
+    height: 56px;
+    /* padding: 16px 30px; */
+
+}
+
+.hero-link {
     text-decoration: none;
-    padding: 16px 32px;
     outline: none;
 }
 
@@ -203,11 +212,15 @@ img {
     background-color: var(--main-butons-color);
     border-color: var(--main-butons-color);
     min-width: 169px;
+    width: 169px;
+    height: 56px;
     border-radius: 4px;
     margin: 0 auto;
     display: block;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 0%;
+
 }
 
 
@@ -448,14 +461,20 @@ img {
     fill: #8E8F99;
 }
 
-.customers-link:hover:is(:hover, :focus) {
-    color: #404BBF;
-    border-color: #404BBF;
-    outline: none;
+.customers-link:hover .customers-icon {
+    fill: var(--main-buttons-focuse-color);
 }
 
-.customers-link:hover:is(:hover, :focus) .customers-icon {
-    fill: currentColor;
+.customers-link:focus .customers-icon {
+    fill: var(--main-buttons-focuse-color);
+}
+
+.customers-link:hover {
+    border-color: var(--main-buttons-focuse-color);
+}
+
+.customers-link:focus {
+    border-color: var(--main-buttons-focuse-color);
     outline: none;
 }
 
@@ -641,7 +660,14 @@ img {
 
 .presentation-link {
     text-decoration: none;
+    outline: none;
+    display: block;
 }
+
+.presentation-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 .presentation-item:hover,
 .presentation-item:focus {
