@@ -479,6 +479,7 @@ img {
 }
 
 /* -----------Footer section------------ */
+
 .main-footer-logo {
     font-family: var(--logo-font-acsent);
     font-style: normal;
@@ -530,9 +531,7 @@ img {
     height: 100%;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    ;
 }
-
 
 .footer-social-link:hover {
     background-color: #31D0AA;
