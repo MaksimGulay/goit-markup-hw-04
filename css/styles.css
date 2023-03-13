@@ -14,9 +14,6 @@ body {
     background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 16px;
-    position: relative;
-    max-width: 1440px;
-
 }
 
 
@@ -62,7 +59,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-color);
-
 }
 
 .main-header-logo {
@@ -82,12 +78,10 @@ img {
 
 
 .logo-acsent {
-
     color: var(--main-butons-color);
 }
 
 .logo {
-
     color: #2E2F42;
 }
 
@@ -127,7 +121,6 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    min-width: 1440px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -146,7 +139,6 @@ img {
 
 .adress {
     margin-left: auto;
-
 }
 
 .header-adress {
@@ -162,13 +154,15 @@ img {
 /* --------------hero-section---------- */
 .hero-section {
     background-color: #2E2F42;
+    width: 1440px;
+    margin: 0% auto;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background;
+    display: block;
 }
 
 .hero-title {
@@ -199,8 +193,6 @@ img {
     margin: 0% auto;
     width: 169px;
     height: 56px;
-    /* padding: 16px 30px; */
-
 }
 
 .hero-link {
@@ -269,7 +261,6 @@ img {
     padding: 0px 0px 8px 0px;
     width: 264px;
     margin: 0px 0px;
-
 }
 
 .about-subtitle {
